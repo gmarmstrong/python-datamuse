@@ -17,5 +17,5 @@ Docs at http://datamuse.com/api/
 
 ## To Do
 * Can this work in Python 2 and 3?
-* Script for converting response into pandas DataFrame
+* More scripts to do interesting things. 
 * Not sure whether I should move the pandas stuff into the Datamuse class or keep it separate in case you don't need pandas for whatever you're doing with this. 
