@@ -13,6 +13,9 @@ Docs at http://datamuse.com/api/
 >>> orange_near_rhymes = api.words(rel_nry='orange', max=5)
 >>> orange_near_rhymes
 [{'score': 973, 'word': 'storage'}, {'score': 858, 'word': 'knowledge'}, {'score': 615, 'word': 'homage'}, {'score': 560, 'word': 'warrant'}]
+>>> foo_complete = api.suggest(s='foo', max=10)
+>>> foo_complete
+[{u'score': 626, u'word': u'food'}, {u'score': 568, u'word': u'foot'}, {u'score': 520, u'word': u'fool'}, {u'score': 315, u'word': u'footage'}, {u'score': 297, u'word': u'foolish'}, {u'score': 279, u'word': u'football'}, {u'score': 272, u'word': u'footprint'}, {u'score': 232, u'word': u'footing'}, {u'score': 221, u'word': u'foof'}, {u'score': 185, u'word': u'foolproof'}]
 ```
 
 ## To Do
