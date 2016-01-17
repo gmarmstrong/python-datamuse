@@ -4,9 +4,10 @@ Basic Python wrapper and scripts for the Datamuse API. Everything is in a single
 Docs at http://datamuse.com/api/
 
 ## Example
+Assuming this is run from the top level directory
 ```
->>> from datamuse import Datamuse
->>> api = Datamuse()
+>>> from datamuse import datamuse
+>>> api = datamuse.Datamuse()
 >>> orange_rhymes = api.words(rel_rhy='orange', max=5)
 >>> orange_rhymes
 []
