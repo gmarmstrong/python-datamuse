@@ -38,7 +38,7 @@ class Datamuse():
         # valid_args = all(arg in param_list for arg in args.keys()):
         for arg in args:
             if arg not in param_set:
-                raise ValueError('{0} is not a valid parameter for this endpoint.')
+                raise ValueError('{0} is not a valid parameter for this endpoint.'.format(arg))
 
     def get_resource(self, endpoint, **kwargs):
         # I feel like this should have some kind of error handling...
