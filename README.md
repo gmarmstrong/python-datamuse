@@ -1,5 +1,5 @@
 # python-datamuse
-Basic Python (2) wrapper and scripts for the Datamuse API.
+Basic Python (2) wrapper and scripts for the Datamuse API. I'm not associated with Datamuse or OneLook, but I thought the API looked interesting and spun this up to make querying it a bit easier.
 
 Docs at http://datamuse.com/api/
 
