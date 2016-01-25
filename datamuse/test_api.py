@@ -31,6 +31,6 @@ class DatamuseTestCase(unittest.TestCase):
         with self.assertRaises(ValueError):
             data = self.api.words(**args)
 
-# though really you can just run `nostests` from this directory
+# though really you can just run `nosetests -sv` from this directory
 if __name__ == "__main__":
     unittest.main()

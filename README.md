@@ -1,5 +1,5 @@
 # python-datamuse
-Basic Python wrapper and scripts for the Datamuse API. Everything is in a single directory because I'm too lazy to figure out how to do the relative imports properly right now. Same for why it's in Python 2 instead of 3 (getting tests and libraries to work for both). 
+Basic Python (2) wrapper and scripts for the Datamuse API.
 
 Docs at http://datamuse.com/api/
 
@@ -38,6 +38,6 @@ Assuming this is run from the top level directory
 ```
 
 ## To Do
-* Can this work in Python 2 and 3?
+* Add support for Python 3
 * More scripts to do interesting things. 
 * Not sure whether I should move the pandas stuff into the Datamuse class or keep it separate in case you don't need pandas for whatever you're doing with this. 

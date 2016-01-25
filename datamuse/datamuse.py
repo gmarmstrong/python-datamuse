@@ -35,7 +35,6 @@ class Datamuse():
         }
 
     def validate_args(self, args, param_set):
-        # valid_args = all(arg in param_list for arg in args.keys()):
         for arg in args:
             if arg not in param_set:
                 raise ValueError('{0} is not a valid parameter for this endpoint.'.format(arg))
