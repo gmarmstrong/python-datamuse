@@ -31,6 +31,19 @@ class DatamuseTestCase(unittest.TestCase):
         with self.assertRaises(ValueError):
             data = self.api.words(**args)
 
-# though really you can just run `nosetests -sv` from this directory
+    def test_set_max(self):
+        self.assertTrue(self.api.max, 100)
+        self.api.set_max_default(10)
+        self.assertEquals(self.api.max, 10)
+        data = self.api.words(ml='ringing in the ears')
+        self.assertEquals(len(data), 10)
+
+    def test_set_max_error(self):
+        with self.assertRaises(ValueError):
+            self.api.set_max_default(-2)
+            self.api.set_max_default(0)
+            self.api.set_max_default(1001)
+
+
 if __name__ == "__main__":
     unittest.main()
