@@ -1,11 +1,19 @@
 # python-datamuse
+
 Basic Python (2) wrapper and scripts for the Datamuse API. I'm not associated with Datamuse or OneLook, but I thought the API looked interesting and spun this up to make querying it a bit easier.
 
 Docs at http://datamuse.com/api/
 
+## Dependencies
+
+This API requires the `requests` library. You can install the requests module with the command `pip install -r requirements.txt`.
+
+If you want to use the `dm_to_df` function in `datamuse/scripts.py`, you'll also need to install pandas separately, but presumably if you're going to use that you've got pandas installed already.
+
 ## Example
+
 Assuming this is run from the top level directory
-```
+```python
 >>> from datamuse import datamuse
 >>> api = datamuse.Datamuse()
 >>> orange_rhymes = api.words(rel_rhy='orange', max=5)
@@ -37,7 +45,10 @@ Assuming this is run from the top level directory
 [10 rows x 2 columns]
 ```
 
+Note that the default number of results is set to 100. You can set the default `max` to something else using the `set_max_default` method, e.g. `api.set_max_default(300)`. Datamuse only returns 1000 results max.
+
 ## To Do
+
 * Add support for Python 3
-* More scripts to do interesting things. 
-* Not sure whether I should move the pandas stuff into the Datamuse class or keep it separate in case you don't need pandas for whatever you're doing with this. 
+* Add CI
+* Proper pacakging setup
