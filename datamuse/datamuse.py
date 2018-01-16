@@ -9,6 +9,7 @@ WORD_PARAMS = [
     'rel_jja',
     'rel_jjb',
     'rel_syn',
+    'rel_trg',
     'rel_ant',
     'rel_spc',
     'rel_gen',
@@ -24,7 +25,9 @@ WORD_PARAMS = [
     'topics',
     'lc',
     'rc',
-    'max'
+    'max',
+    'md',
+    'qe'
 ]
 
 SUGGEST_PARAMS = [
