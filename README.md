@@ -2,9 +2,13 @@
 
 Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/).
 
-## Dependencies
+## Installation
 
-This API requires the `requests` and `pandas` libraries. You can install the modules with the command`pip install -r requirements.txt`.
+`python-datamuse` is available on PyPI. You can install it with:
+
+```
+pip3 install datamuse
+```
 
 ## Example
 
