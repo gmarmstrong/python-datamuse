@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 import unittest
-import datamuse
+
 from datamuse import Datamuse
+
 
 class DatamuseTestCase(unittest.TestCase):
     def setUp(self):
@@ -29,16 +30,16 @@ class DatamuseTestCase(unittest.TestCase):
         print("near rhyme", data)
 
     def test_bad_request(self):
-        args = {'foo':42}
+        args = {'foo': 42}
         with self.assertRaises(ValueError):
-            data = self.api.words(**args)
+            self.api.words(**args)
 
     def test_set_max(self):
         self.assertTrue(self.api.max, 100)
         self.api.set_max_default(10)
-        self.assertEquals(self.api.max, 10)
+        self.assertEqual(self.api.max, 10)
         data = self.api.words(ml='ringing in the ears')
-        self.assertEquals(len(data), 10)
+        self.assertEqual(len(data), 10)
 
     def test_set_max_error(self):
         with self.assertRaises(ValueError):

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-import json
 import requests
-
 
 WORD_PARAMS = [
     'ml',
@@ -39,21 +37,19 @@ SUGGEST_PARAMS = [
 ]
 
 
-class Datamuse():
+class Datamuse(object):
     def __init__(self, max_results=100):
         self.api_root = 'https://api.datamuse.com'
         self._validate_max(max_results)
         self.max = max_results
 
-
     def __repr__(self):
-        return '\n'.join(['{0}: {1}'.format(k,v) for k,v in api.__dict__.items()])
+        return '\n'.join(['{0}: {1}'.format(k, v) for k, v in requests.api.__dict__.items()])
 
-
-    def _validate_max(self, max_results):
+    @staticmethod
+    def _validate_max(max_results):
         if not (0 < max_results <= 1000):
             raise ValueError("Datamuse only supports values of max in (0, 1000]")
-
 
     def _validate_args(self, args, param_set):
         for arg in args:
@@ -62,30 +58,23 @@ class Datamuse():
             if arg == 'max':
                 self._validate_max(args[arg])
 
-
     def _get_resource(self, endpoint, **kwargs):
         url = '/'.join([self.api_root, endpoint])
         response = requests.get(url, params=kwargs)
-        data = response.json()
-        return data
-
+        return response.json()
 
     def set_max_default(self, max_results):
         self._validate_max(max_results)
         self.max = max_results
 
-
     def words(self, **kwargs):
-        '''https://www.datamuse.com/api/
-        '''
+        """https://www.datamuse.com/api/"""
         self._validate_args(kwargs, WORD_PARAMS)
         if 'max' not in kwargs:
             kwargs.update({'max': self.max})
         return self._get_resource('words', **kwargs)
 
-
     def suggest(self, **kwargs):
-        '''https://www.datamuse.com/api/
-        '''
+        """https://www.datamuse.com/api/"""
         self._validate_args(kwargs, SUGGEST_PARAMS)
         return self._get_resource('sug', **kwargs)

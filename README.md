@@ -4,7 +4,7 @@ Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/).
 
 ## Dependencies
 
-This API requires the `requests` and `pandas` libraries. You can install the modules with the command `pip install -r requirements.txt`.
+This API requires the `requests` and `pandas` libraries. You can install the modules with the command`pip install -r requirements.txt`.
 
 ## Example
 
@@ -46,4 +46,3 @@ Note that the default number of results is set to 100. You can set the default `
 ## To Do
 
 * Continuous integration
-* Proper packaging setup
