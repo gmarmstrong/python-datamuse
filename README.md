@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gmarmstrong/python-datamuse.svg?branch=master)](https://travis-ci.org/gmarmstrong/python-datamuse)
+
 # python-datamuse
 
 Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/).
