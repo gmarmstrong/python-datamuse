@@ -38,7 +38,3 @@ Assuming this is run from the top level directory
 ```
 
 Note that the default number of results is set to 100. You can set the default `max` to something else using the `set_max_default` method, e.g. `api.set_max_default(300)`. Datamuse only returns 1000 results max.
-
-## To Do
-
-* Continuous integration
