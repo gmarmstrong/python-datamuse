@@ -2,14 +2,6 @@
 
 Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/).
 
-## Installation
-
-`python-datamuse` is available on PyPI. You can install it with:
-
-```
-pip3 install datamuse
-```
-
 ## Example
 
 Assuming this is run from the top level directory
