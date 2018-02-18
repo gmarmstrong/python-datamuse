@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="python-datamuse",
-    version="1.0.0",
+    version="1.1.0",
     keywords="datamuse, linguistics, language, wrapper",
     packages=["datamuse"],
     url="https://github.com/gmarmstrong/python-datamuse",
