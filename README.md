@@ -6,7 +6,6 @@ Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/). Ava
 
 ## Example
 
-Assuming this is run from the top level directory
 ```python
 >>> from datamuse import datamuse
 >>> api = datamuse.Datamuse()
