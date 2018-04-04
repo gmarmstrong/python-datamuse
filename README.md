@@ -2,7 +2,20 @@
 
 # python-datamuse
 
-Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/). Available on PyPI at <https://pypi.python.org/pypi/python-datamuse>. You can install this library with `pip3 install python-datamuse`.
+Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/).
+Available on PyPI at <https://pypi.python.org/pypi/python-datamuse>. You can
+install this library with `pip3 install python-datamuse`.
+
+## Changelog
+
+### Version 1.1.0
+
+- Changed to Python 3
+- Uploaded to PyPI, added instructions for PyPI installation
+- Changed README example to reflect PyPI packaging
+- Set up Travis CI
+- Temporarily removed pandas
+- Changed mode of scripts to executable
 
 ## Example
 
@@ -38,4 +51,6 @@ Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/). Ava
 [10 rows x 2 columns]
 ```
 
-Note that the default number of results is set to 100. You can set the default `max` to something else using the `set_max_default` method, e.g. `api.set_max_default(300)`. Datamuse only returns 1000 results max.
+Note that the default number of results is set to 100. You can set the default
+`max` to something else using the `set_max_default` method, e.g.
+`api.set_max_default(300)`. Datamuse only returns 1000 results max.
