@@ -4,7 +4,7 @@ python:
 install:
     - pip install -r requirements.txt
 script:
-    - datamuse/test_api.py
+    - tests/datamuse/test_api.py
 notifications:
     branch: master
     email:

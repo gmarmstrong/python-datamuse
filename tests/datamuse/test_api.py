@@ -1,16 +1,44 @@
 #!/usr/bin/env python3
-
+import json
 import unittest
+from urllib.parse import urljoin
+
+import pkg_resources
+import responses
 
 from datamuse import Datamuse
 
 
 class DatamuseTestCase(unittest.TestCase):
-    def setUp(self):
-        self.api = Datamuse()
-        self.max = 5
 
-    # words endpoint
+    @responses.activate
+    def setUp(self):
+        self.max = 5
+        self.api = Datamuse()
+        _api_url = 'https://api.datamuse.com/words'
+
+        _fp = pkg_resources.resource_filename(__name__, 'fixtures/orange.json')
+        with open(_fp) as response_json:
+            response_json = json.load(response_json)
+
+        responses.add(responses.GET,
+                      urljoin(_api_url, '?sl=orange?max=5'),
+                      json=response_json, status=200)
+        responses.add(responses.GET,
+                      urljoin(_api_url, '?rel_rhy=orange?max=5'),
+                      json=response_json, status=200)
+        responses.add(responses.GET,
+                      urljoin(_api_url, '?rel_nry=orange?max=5'),
+                      json=response_json, status=200)
+
+        _fp = pkg_resources.resource_filename(__name__, 'fixtures/ringing.json')
+        with open(_fp) as response_json:
+            response_json = json.load(response_json)
+
+        responses.add(responses.GET,
+                      urljoin(_api_url, f'?ml=ringing+in+the+ears'),
+                      json=response_json, status=200)
+
     def test_sounds_like(self):
         args = {'sl': 'orange', 'max': self.max}
         data = self.api.words(**args)
