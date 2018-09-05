@@ -1,0 +1,721 @@
+[
+  {
+    "word": "tinnitus",
+    "score": 51691,
+    "tags": [
+      "syn",
+      "n"
+    ]
+  },
+  {
+    "word": "ring",
+    "score": 28491,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "cinchonism",
+    "score": 28392,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "acouasm",
+    "score": 28091
+  },
+  {
+    "word": "rings",
+    "score": 28091,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "singing",
+    "score": 28091,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "sing",
+    "score": 28076,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "sound",
+    "score": 11691,
+    "tags": [
+      "n",
+      "adj"
+    ]
+  },
+  {
+    "word": "ear",
+    "score": 11634,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "hammer",
+    "score": 10662,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "jangle",
+    "score": 10662,
+    "tags": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "word": "mute",
+    "score": 10662,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "are",
+    "score": 10606,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "blow",
+    "score": 10606,
+    "tags": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "word": "bob",
+    "score": 10606,
+    "tags": [
+      "n",
+      "prop"
+    ]
+  },
+  {
+    "word": "bong",
+    "score": 10606,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "bright",
+    "score": 10606,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "call",
+    "score": 10606,
+    "tags": [
+      "v",
+      "n"
+    ]
+  },
+  {
+    "word": "chime",
+    "score": 10606,
+    "tags": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "word": "chiming",
+    "score": 10606,
+    "tags": [
+      "v",
+      "n"
+    ]
+  },
+  {
+    "word": "clam",
+    "score": 10606,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "clock",
+    "score": 10606,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "ding",
+    "score": 10606,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "hinting",
+    "score": 10606,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "hunting",
+    "score": 10606,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "ido",
+    "score": 10606,
+    "tags": [
+      "n",
+      "prop"
+    ]
+  },
+  {
+    "word": "persistent",
+    "score": 10606,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "phone",
+    "score": 10606,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "ping",
+    "score": 10606,
+    "tags": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "word": "sally",
+    "score": 10606,
+    "tags": [
+      "n",
+      "prop"
+    ]
+  },
+  {
+    "word": "whistle",
+    "score": 10606,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "yoke",
+    "score": 10606,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "acousma",
+    "score": 10578,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "autophony",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "binaural",
+    "score": 10523,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "box",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "buzz",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "buzzing",
+    "score": 10523,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "din",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "drum",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "earplug",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "flap",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "flaps",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "frum",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "headphone",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "headphones",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "heads",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "hear",
+    "score": 10523,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "hearing",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "nox",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "rar",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "smap",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "snap",
+    "score": 10523,
+    "tags": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "word": "sonar",
+    "score": 10523,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "stop",
+    "score": 10523,
+    "tags": [
+      "v",
+      "n"
+    ]
+  },
+  {
+    "word": "strike",
+    "score": 10523,
+    "tags": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "word": "stun",
+    "score": 10523,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "stunned",
+    "score": 10523,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "jangling",
+    "score": 10522,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "roller",
+    "score": 10522,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "bombus",
+    "score": 10508,
+    "tags": [
+      "n",
+      "prop"
+    ]
+  },
+  {
+    "word": "dichotic",
+    "score": 10508,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "ear hole",
+    "score": 10508,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "acoustic",
+    "score": 10494,
+    "tags": [
+      "adj",
+      "n"
+    ]
+  },
+  {
+    "word": "address",
+    "score": 10494,
+    "tags": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "word": "addressing",
+    "score": 10494,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "alveolar",
+    "score": 10494,
+    "tags": [
+      "adj",
+      "n"
+    ]
+  },
+  {
+    "word": "amanita",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "annulus",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "anthelion",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "arcus senilis",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "articulate",
+    "score": 10494,
+    "tags": [
+      "v",
+      "adj"
+    ]
+  },
+  {
+    "word": "articulation",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "asperity",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "audiophile",
+    "score": 10494,
+    "tags": [
+      "n",
+      "adj"
+    ]
+  },
+  {
+    "word": "audiphone",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "auditorium",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "aurally",
+    "score": 10494,
+    "tags": [
+      "adv"
+    ]
+  },
+  {
+    "word": "ban",
+    "score": 10494,
+    "tags": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "word": "bann",
+    "score": 10494,
+    "tags": [
+      "n",
+      "prop"
+    ]
+  },
+  {
+    "word": "banned",
+    "score": 10494,
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "word": "bass drum",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "bat",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "blow out",
+    "score": 10494,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "blowball",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "bonk",
+    "score": 10494,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "brain",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "bridgework",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "brr",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "buckie",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "but",
+    "score": 10494,
+    "tags": [
+      "adv"
+    ]
+  },
+  {
+    "word": "butt",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "butted",
+    "score": 10494,
+    "tags": [
+      "v"
+    ]
+  },
+  {
+    "word": "cacophony",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "calx",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "cameo",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "cannon",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "canon",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "capital",
+    "score": 10494,
+    "tags": [
+      "n"
+    ]
+  },
+  {
+    "word": "cephalic",
+    "score": 10494,
+    "tags": [
+      "adj"
+    ]
+  }
+]
