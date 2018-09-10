@@ -8,6 +8,13 @@ install this library with `pip3 install python-datamuse`.
 
 ## Changelog
 
+### Version 1.2.0
+
+- Raise Python version to 3.6
+- Mock the Datamuse API for tests
+- Restructure project files
+- Set README as PyPI long description
+
 ### Version 1.1.0
 
 - Changed to Python 3
