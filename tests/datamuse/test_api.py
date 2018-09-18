@@ -39,6 +39,15 @@ class DatamuseTestCase(unittest.TestCase):
                       urljoin(_api_url, f'?ml=ringing+in+the+ears'),
                       json=response_json, status=200)
 
+
+        _fp = pkg_resources.resource_filename(__name__, 'fixtures/por.json')
+        with open(_fp) as response_json:
+            response_json = json.load(response_json)
+        responses.add(responses.GET,
+                      urljoin(_api_url, f'?s=por&max=3'),
+                      json=response_json, status=200)
+
+
     def test_sounds_like(self):
         args = {'sl': 'orange', 'max': self.max}
         data = self.api.words(**args)
@@ -75,6 +84,11 @@ class DatamuseTestCase(unittest.TestCase):
             self.api.set_max_default(0)
             self.api.set_max_default(1001)
 
+    def test_suggest(self):
+        response = self.api.suggest(s='por', max_results=3, vocabulary='es')
+        assert len(response) == 3
+        assert isinstance(response, list)
+        assert response[1]['word'] == 'porque'
 
 if __name__ == "__main__":
     unittest.main()
