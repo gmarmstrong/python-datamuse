@@ -14,6 +14,7 @@ setup(
     author_email="guthrie.armstrong@gmail.com",
     description="Python wrapper for the Datamuse API",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     python_requires=">=3.6",
     classifiers=[
         "Development Status :: 3 - Alpha",
