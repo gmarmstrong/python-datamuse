@@ -8,6 +8,10 @@ install this library with `pip3 install python-datamuse`.
 
 ## Changelog
 
+### Version 1.2.1
+
+- Fix README formatting on PyPI
+
 ### Version 1.2.0
 
 - Raise Python version to 3.6
