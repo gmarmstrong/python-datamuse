@@ -33,33 +33,18 @@ install this library with `pip3 install python-datamuse`.
 ```python
 >>> from datamuse import datamuse
 >>> api = datamuse.Datamuse()
+>>> ninth_rhymes = api.words(rel_rhy='ninth', max=5)
+>>> ninth_rhymes
+[]
 >>> orange_rhymes = api.words(rel_rhy='orange', max=5)
 >>> orange_rhymes
-[]
->>> orange_near_rhymes = api.words(rel_nry='orange', max=5)
->>> orange_near_rhymes
-[{'score': 973, 'word': 'storage'}, {'score': 858, 'word': 'knowledge'}, {'score': 615, 'word': 'homage'}, {'score': 560, 'word': 'warrant'}]
->>>
->>>
+[{'word': 'door hinge', 'score': 74, 'numSyllables': 2}]
+>>> yellow_things = api.words(rel_jja='yellow', max=5)
+>>> yellow_things
+[{'word': 'fever', 'score': 1001}, {'word': 'color', 'score': 1000}, {'word': 'flowers', 'score': 999}, {'word': 'light', 'score': 998}, {'word': 'colour', 'score': 997}]
 >>> foo_complete = api.suggest(s='foo', max=10)
 >>> foo_complete
-[{u'score': 626, u'word': u'food'}, {u'score': 568, u'word': u'foot'}, {u'score': 520, u'word': u'fool'}, {u'score': 315, u'word': u'footage'}, {u'score': 297, u'word': u'foolish'}, {u'score': 279, u'word': u'football'}, {u'score': 272, u'word': u'footprint'}, {u'score': 232, u'word': u'footing'}, {u'score': 221, u'word': u'foof'}, {u'score': 185, u'word': u'foolproof'}]
->>> from datamuse import scripts
->>> foo_df = scripts.dm_to_df(foo_complete)
->>> foo_df
-   score       word
-0    626       food
-1    568       foot
-2    521       fool
-3    315    footage
-4    297    foolish
-5    279   football
-6    272  footprint
-7    232    footing
-8    221       foof
-9    185  foolproof
-
-[10 rows x 2 columns]
+[{'word': 'food', 'score': 3888}, {'word': 'foot', 'score': 3041}, {'word': 'fool', 'score': 1836}, {'word': 'football', 'score': 1424}, {'word': 'footage', 'score': 1328}, {'word': 'footprint', 'score': 1082}, {'word': 'foolish', 'score': 967}, {'word': 'foof', 'score': 930}, {'word': 'footing', 'score': 786}, {'word': 'foolproof', 'score': 697}]
 ```
 
 Note that the default number of results is set to 100. You can set the default
