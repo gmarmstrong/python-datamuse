@@ -8,6 +8,10 @@ install this library with `pip3 install python-datamuse`.
 
 ## Changelog
 
+### Version 1.3.0
+
+- Add optional arguments to `suggest` method
+
 ### Version 1.2.1
 
 - Fix README formatting on PyPI
