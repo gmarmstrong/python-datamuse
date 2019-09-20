@@ -30,14 +30,9 @@ WORD_PARAMS = [
     'qe'
 ]
 
-SUGGEST_PARAMS = [
-    's',
-    'max',
-    'v'
-]
-
 
 class Datamuse(object):
+
     def __init__(self, max_results=100):
         self.api_root = 'https://api.datamuse.com'
         self._validate_max(max_results)
@@ -74,7 +69,28 @@ class Datamuse(object):
             kwargs.update({'max': self.max})
         return self._get_resource('words', **kwargs)
 
-    def suggest(self, **kwargs):
-        """https://www.datamuse.com/api/"""
-        self._validate_args(kwargs, SUGGEST_PARAMS)
-        return self._get_resource('sug', **kwargs)
+    def suggest(self, s, max_results=None, vocabulary=None):
+        """
+        This resource is useful as a backend for “autocomplete” widgets
+        on websites and apps when the vocabulary of possible search terms
+        is very large.
+
+        It provides word suggestions given a partially-entered query
+        using a combination of the operations.
+
+        The suggestions perform live spelling correction and intelligently
+        fall back to choices that are phonetically or semantically similar
+        when an exact prefix match can't be found.
+
+        :param s: Prefix hint string; typically, the characters that
+            the user has entered so far into a search box.
+        :param max_results: Maximum number of results to return, not to exceed 1000.
+        :param vocabulary: The language vocabulary to use. Currently, `en` and `es` are supported.
+        :return: A list of suggested words to the given string s.
+        """
+        payload = {'s': s}
+        if max_results is not None:
+            payload['max'] = max_results
+        if vocabulary is not None:
+            payload['v'] = vocabulary
+        return self._get_resource('sug', **payload)
