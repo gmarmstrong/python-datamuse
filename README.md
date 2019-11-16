@@ -8,9 +8,13 @@ install this library with `pip3 install python-datamuse`.
 
 ## Changelog
 
-### Version 1.3.0 (2019-09-20)
+### Version 1.3.* (2019-09-20)
 
 - Add optional arguments to `suggest` method
+- Document and test suggestion method
+- **(1.3.1):** Update README example
+- **(1.3.1):** Remove WORD_PARAMS
+- **(1.3.1):** Document `words` method
 
 ### Version 1.2.* (2018-10-23)
 

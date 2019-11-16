@@ -28,7 +28,16 @@ class Datamuse(object):
         self.max = max_results
 
     def words(self, **kwargs):
-        """https://www.datamuse.com/api/"""
+        """
+        This endpoint returns a list of words (and multiword expressions) from
+        a given vocabulary that match a given set of constraints.
+
+        See <https://www.datamuse.com/api/> for the official Datamuse API
+        documentation for the `/words` endpoint.
+
+        :param `**kwargs`: Query parameters of constraints and hints.
+        :return: A list of words matching that match the given constraints.
+        """
         if 'max' not in kwargs:
             kwargs.update({'max': self.max})
         return self._get_resource('words', **kwargs)
