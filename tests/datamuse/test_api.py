@@ -66,11 +66,6 @@ class DatamuseTestCase(unittest.TestCase):
         self.assertTrue(len(data) <= self.max)
         print("near rhyme", data)
 
-    def test_bad_request(self):
-        args = {'foo': 42}
-        with self.assertRaises(ValueError):
-            self.api.words(**args)
-
     def test_set_max(self):
         self.assertTrue(self.api.max, 100)
         self.api.set_max_default(10)
