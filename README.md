@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/gmarmstrong/python-datamuse.svg?branch=master)](https://travis-ci.org/gmarmstrong/python-datamuse)
 [![PyPI](https://img.shields.io/pypi/v/python-datamuse)](https://pypi.org/project/python-datamuse/)
 ![PyPI - License](https://img.shields.io/pypi/l/python-datamuse)
+[![CodeQL](https://github.com/gmarmstrong/python-datamuse/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/gmarmstrong/python-datamuse/actions/workflows/codeql-analysis.yml)
 
 # python-datamuse
 
