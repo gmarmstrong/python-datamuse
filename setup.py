@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="python-datamuse",
-    version="1.3.1",
+    version="1.3.2",
     keywords="datamuse, linguistics, language, wrapper",
     packages=["datamuse"],
     url="https://github.com/gmarmstrong/python-datamuse",
