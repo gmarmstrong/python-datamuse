@@ -15,6 +15,7 @@ install this library with `pip3 install python-datamuse`.
 - **(1.3.1):** Update README example
 - **(1.3.1):** Remove WORD_PARAMS
 - **(1.3.1):** Document `words` method
+- **(1.3.2) (2022-04-04):** Fix test_set_max bug 
 
 ### Version 1.2.* (2018-10-23)
 

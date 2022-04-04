@@ -70,7 +70,7 @@ class DatamuseTestCase(unittest.TestCase):
         self.assertTrue(self.api.max, 100)
         self.api.set_max_default(10)
         self.assertEqual(self.api.max, 10)
-        data = self.api.words(ml='ringing in the ears')
+        data = self.api.words(ml="'ringing in the ears'")
         self.assertEqual(len(data), 10)
 
     def test_set_max_error(self):
