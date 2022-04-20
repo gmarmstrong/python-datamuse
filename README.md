@@ -40,8 +40,8 @@ install this library with `pip3 install python-datamuse`.
 ## Example
 
 ```python
->>> import datamuse
->>> api = datamuse.Datamuse()
+>>> from datamuse import Datamuse
+>>> api = Datamuse()
 >>> api.words(rel_rhy='ninth', max=5)  # words that rhyme with "ninth"
 []
 >>> api.words(rel_rhy='orange', max=5)  # words that rhyme with "orange"
