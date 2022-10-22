@@ -10,6 +10,15 @@ install this library with `pip3 install python-datamuse`.
 
 ## Changelog
 
+### Version 2.0.0 (2022-10-22)
+
+- require Python 3.7
+- add @margaret to authors
+- upgrade trove classifier "Development Status" from "3 - Alpha" to "5 - Production/Stable"
+- specify all dependency version requirements
+- rename default branch `main`
+- build tool changes, see <https://github.com/gmarmstrong/python-datamuse/releases/tag/v2.0.0>
+
 ### Version 1.3.* (2019-09-20)
 
 - Add optional arguments to `suggest` method
