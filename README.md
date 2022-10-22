@@ -1,8 +1,8 @@
 # python-datamuse
 
 [![PyPI](https://img.shields.io/pypi/v/python-datamuse)](https://pypi.org/project/python-datamuse/)
-[![PyPI - License](https://img.shields.io/pypi/l/python-datamuse)](https://github.com/gmarmstrong/python-datamuse/blob/master/LICENSE)
-[![CodeQL](https://github.com/gmarmstrong/python-datamuse/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/gmarmstrong/python-datamuse/actions/workflows/codeql-analysis.yml)
+[![PyPI - License](https://img.shields.io/pypi/l/python-datamuse)](https://github.com/gmarmstrong/python-datamuse/blob/main/LICENSE)
+[![CodeQL](https://github.com/gmarmstrong/python-datamuse/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/gmarmstrong/python-datamuse/actions/workflows/codeql-analysis.yml)
 
 Python wrapper and scripts for the [Datamuse API](http://datamuse.com/api/).
 Available on PyPI at <https://pypi.python.org/pypi/python-datamuse>. You can
@@ -38,7 +38,7 @@ install this library with `pip3 install python-datamuse`.
 
 ## Example
 
-```python
+```
 >>> from datamuse import Datamuse
 >>> api = Datamuse()
 >>> api.words(rel_rhy='ninth', max=5)  # words that rhyme with "ninth"
