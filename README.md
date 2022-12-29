@@ -10,7 +10,7 @@ install this library with `pip3 install python-datamuse`.
 
 ## Changelog
 
-### Version 2.0.0 (2022-10-22)
+### Version 2.0.* (2022-10-22)
 
 - require Python 3.7
 - add @margaret to authors
@@ -18,6 +18,7 @@ install this library with `pip3 install python-datamuse`.
 - specify all dependency version requirements
 - rename default branch `main`
 - build tool changes, see <https://github.com/gmarmstrong/python-datamuse/releases/tag/v2.0.0>
+- **(2.0.1) (2022-12-29):** fix CI workflows
 
 ### Version 1.3.* (2019-09-20)
 
