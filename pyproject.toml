@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "datamuse"
+name = "python-datamuse"
 version = "2.0.0"
 description = "Python wrapper for the Datamuse API"
 authors = [
@@ -16,6 +16,9 @@ keywords = ["datamuse", "linguistics", "language", "wrapper"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
+]
+packages = [
+    {include = "datamuse"}
 ]
 
 [tool.poetry.dependencies]
